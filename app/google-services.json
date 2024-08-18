@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "600549966254",
+    "project_id": "createaccount-be5bc",
+    "storage_bucket": "createaccount-be5bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600549966254:android:ed87b2a46a550240d5c83f",
+        "android_client_info": {
+          "package_name": "com.example.createaccount"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCy78E9-SVUVIUwe6vW-2kNWg9cZJX8zdE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

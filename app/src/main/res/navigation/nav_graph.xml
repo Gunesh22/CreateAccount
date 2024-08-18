@@ -1,0 +1,30 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/sendOtpFragment">
+
+    <fragment
+        android:id="@+id/sendOtpFragment"
+        android:name="tech.demoproject.android_otp_verification.sendOtpFragment"
+        tools:layout="@layout/fragment_send_otp">
+        <action
+            android:id="@+id/action_sendOtpFragment_to_verifyOtpFragment"
+            app:destination="@id/verifyOtpFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/verifyOtpFragment"
+        android:name="tech.demoproject.android_otp_verification.verifyOtpFragment"
+        tools:layout="@layout/fragment_verify_otp">
+
+        <action
+            android:id="@+id/action_verifyOtpFragment_to_verificationFragment"
+            app:destination="@id/verificationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/verificationFragment"
+        android:name="com.example.createaccount.verificationFragment"
+        android:label="fragment_verification"
+        tools:layout="@layout/fragment_verification" />
+
+</navigation>
